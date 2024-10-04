@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/newPassword">
+
+    <fragment
+        android:id="@+id/register"
+        android:name="com.example.greenguest.view.fragments.Register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/signIn"
+        android:name="com.example.greenguest.view.fragments.SignIn"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.example.greenguest.view.fragments.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" />
+    <fragment
+        android:id="@+id/emailVerification"
+        android:name="com.example.greenguest.view.fragments.forget_password.EmailVerification"
+        android:label="fragment_email_verification"
+        tools:layout="@layout/fragment_email_verification" />
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.greenguest.view.fragments.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" />
+    <fragment
+        android:id="@+id/newPassword"
+        android:name="com.example.greenguest.view.fragments.forget_password.NewPassword"
+        android:label="fragment_new_password"
+        tools:layout="@layout/fragment_new_password" />
+    <fragment
+        android:id="@+id/success"
+        android:name="com.example.greenguest.view.fragments.forget_password.Success"
+        android:label="fragment_success"
+        tools:layout="@layout/fragment_success" />
+    <fragment
+        android:id="@+id/viewPager"
+        android:name="com.example.greenguest.view.fragments.onboarding.ViewPager"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" />
+</navigation>
