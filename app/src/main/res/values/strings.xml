@@ -20,8 +20,7 @@
     <string name="email">E-poçt ünvanınız</string>
     <string name="log_in">Daxil olun</string>
     <string name="password">Şifrəniz</string>
-    <string name="your_email">sizinemailiniz@gmail.com</string>
-    <string name="your_password">•••••••••</string>
+    <string name="your_email">Sizinemailiniz@gmail.com</string>
     <string name="password_visibility">password_visibility</string>
     <string name="forget_password">Şifrəni unutdunuz?</string>
     <string name="or">Və ya</string>
@@ -30,7 +29,7 @@
     <string name="register">&#160;Qeydiyatdan keçin</string>
     <string name="register_info">Bir-birindən fərqli aqroturizm fəaliyyətləri üçün qeydiyyatdan keçin!</string>
     <string name="username">İstifadəçi adınız</string>
-    <string name="your_name">adınız</string>
+    <string name="your_name">Adınız</string>
     <string name="confirm_password">Yenidən şifrəniz</string>
     <string name="already_have_account">Artıq hesabınız var?&#160;</string>
     <string name="register_via_google">Google ilə qeydiyyatdan keçin</string>
@@ -54,4 +53,7 @@
     <string name="splash_screen">splash_screen</string>
     <string name="green">Green</string>
     <string name="guest">Guest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="renew_pwd">Zəhmət olmasa, e-poçt ünvanınızı daxil edin və sizə şifrəni yeniləmək üçün bir keçid göndərək.</string>
 </resources>

@@ -1,45 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.fragments.onboarding.screens.SecondScreen">
-
-    <ImageView
-        android:id="@+id/img_village"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/img_village"
-        android:paddingVertical="48dp"
-        android:paddingHorizontal="24dp"
-        android:elevation="1dp"
-        android:src="@drawable/img_village"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/background"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/bg_on_board_screen"
-        android:contentDescription="@string/img_village"
-        android:elevation="0dp"
-        app:layout_constraintBottom_toBottomOf="@+id/img_village"
-        app:layout_constraintEnd_toEndOf="@+id/img_village"
-        app:layout_constraintStart_toStartOf="@+id/img_village"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/progress"
-        android:src="@drawable/ic_progress_dots_1"
-        app:layout_constraintBottom_toTopOf="@+id/info3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_village" />
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragments.onboarding.frame_bottom.screens.SecondScreenBottom">
 
     <TextView
         android:id="@+id/info3"
@@ -55,7 +20,7 @@
         app:layout_constraintBottom_toTopOf="@+id/info4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_village"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <TextView
@@ -83,11 +48,11 @@
         android:layout_marginEnd="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_village"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.8" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/skip"
+        android:id="@+id/skip_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
@@ -96,6 +61,7 @@
         android:layout_marginStart="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_village"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.8" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -56,6 +56,9 @@ dependencies {
     api (libs.kotlinx.coroutines.core)
     api (libs.kotlinx.coroutines.android)
 
+    // ViewPagerIndicator
+    implementation(libs.dotsindicator)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

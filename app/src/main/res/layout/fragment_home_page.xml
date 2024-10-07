@@ -58,12 +58,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profile" />
+
+
+
     <LinearLayout
-        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
         app:layout_constraintTop_toBottomOf="@+id/tip_recycler">
 
         <ImageView
@@ -73,27 +77,30 @@
             android:layout_marginEnd="6dp"
             android:contentDescription="@string/tips_place"
             android:src="@drawable/ic_tips_focused" />
+
         <ImageView
             android:id="@+id/item_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="6dp"
             android:contentDescription="@string/tips_place"
-            android:src="@drawable/ic_tips_unfocused"
-            android:layout_marginEnd="6dp"/>
+            android:src="@drawable/ic_tips_unfocused" />
+
         <ImageView
             android:id="@+id/item_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="6dp"
             android:contentDescription="@string/tips_place"
-            android:src="@drawable/ic_tips_unfocused"
-            android:layout_marginEnd="6dp"/>
+            android:src="@drawable/ic_tips_unfocused" />
+
         <ImageView
             android:id="@+id/item_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="6dp"
             android:contentDescription="@string/tips_place"
-            android:src="@drawable/ic_tips_unfocused"
-            android:layout_marginEnd="6dp"/>
+            android:src="@drawable/ic_tips_unfocused" />
     </LinearLayout>
 
 
